@@ -355,6 +355,10 @@ footer{
 hr{
     margin: 0px 160px 0px 160px;
 }
+footer img{
+    height: 28.8px;
+    width: 28.8px;
+}
 
 /* Hover Effect */
 .btn-signin:hover{
