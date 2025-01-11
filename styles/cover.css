@@ -59,6 +59,7 @@ section{
     align-items: center;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 /* main styles */
 /* nav */
@@ -298,6 +299,7 @@ input[type="email"]{
     flex: 1;
     padding: 10px 10px 10px 20px;
     border: 1px solid #ccc;
+    border-right: none;
     border-radius: 8px 0px 0px 8px;
     font-size: 16px;
     text-align: left;
@@ -315,14 +317,72 @@ input[type="email"]{
 }
 .newsletter-end{
     padding: 0px 0px 96px 0px;
+    color: #0E0E0E70;
 }
 .sub-btn{
     color: #FFFFFF;
     background-color: #006A50;
     font-size: 20px;
     font-weight: 600;
-    padding: 17px 34px;
-    border: none;
+    padding: 16px 32px;
+    border: 1px solid #ccc;
+    border-left: none;
     border-radius: 0px 8px 8px 0px;
 }
 /* footer styles */
+footer{
+    background-color: white;
+}
+.footer{
+    text-align: center;
+    margin: 0px 160px 0px  160px;
+    font-weight: bolder;
+    font-size: 32px;
+    padding-top: 50px;
+    margin-bottom: 39px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 32px 0px 0px 0px;
+    padding-bottom: 50px;
+}
+.social-media a{
+    text-decoration: none;
+}
+hr{
+    margin: 0px 160px 0px 160px;
+}
+
+/* Hover Effect */
+.btn-signin:hover{
+    background-color: #006A50;
+    color: white;
+}
+.banner-btn:hover{
+    color: #006A50;
+    background-color: white;
+    border: 1px solid #006A50;
+}
+.learn-btn:hover{
+    transform: scale(1.2);
+}
+.donate-amount:hover{
+    background-color: #09A15C;
+}
+.donate-btn:hover{
+    border: 2px solid #006A50;
+    background-color: white;
+    color: #006A50;
+}
+.sub-btn:hover{
+    background-color: white;
+    color: #006A50;
+}
+.read-btn:hover{
+    background-color: white;
+    color: #09A15C;
+    border: 3px solid #09A15C;
+}
