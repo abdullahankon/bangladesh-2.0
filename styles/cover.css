@@ -10,9 +10,17 @@
 .btn-signin{
     padding: 15px 30px;
     text-align: center;
+    background-color: white;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    color: #006A50;
+    cursor: pointer;
 }
 section{
     margin: 0px 160px 80px 160px;
+}
+.center{
+    text-align: center;
 }
 /* Buttons Styles */
 .banner-btn{
@@ -24,6 +32,7 @@ section{
     border-radius: 8px;
     font-weight: 700;
     border: none;
+    cursor: pointer;
 }
 .learn-btn{
     border-radius: 9.6px;
@@ -32,6 +41,14 @@ section{
     border: none;
     color: white;
     font-weight: 600;
+    cursor: pointer;
+}
+.read-btn{
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #006A50;
+    padding: 13px 26px;
 }
 /* main styles */
 /* nav */
@@ -74,7 +91,7 @@ header nav{
     margin: 5px 0px;
 }
 .piller-content{
-    background-color: #F1F1F3;
+    background-color: #FFFFFF;
     border-radius: 9.6px;
     border: none;
     padding: 24px;
@@ -115,4 +132,105 @@ header nav{
 }
 .btn-or{
     background-color: #FFC239;
+}
+/* Doctor Yunus Quote Section */
+
+.quote{
+    margin: 20px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+}
+.quote-container{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    margin-top: 32px;
+    background-color: #FFFFFF;
+}
+.quote-name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #OEOEOE80;
+}
+.quote-para{
+    padding-top: 30px;
+    color: #00000080;
+}
+.quote-desig{
+    color: #00000080;
+    padding-bottom:30px ;
+}
+/* table styles */
+.table{
+    padding: 32px;
+    background-color: white;
+    border-radius: 16px;
+    border: none;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td{
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 20px 0px;
+}
+th{
+    background-color:  #e0f2f1;
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 20px 0px 20px 10px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+select{
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    width: 90%;
+    font-size: 16px;
+    margin: 0px auto;
+}
+
+/* news styles */
+.news>.allnews>div>img {
+    border:none;
+    border-radius: 24px;
+    height: 306px;
+    width: 408px;
+}
+.newses img{
+    height: 40px;
+    width: 134px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.news-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #FFFFFF ;
+    border-radius: 24px;
+    padding: 48px;
+    margin-bottom: 24px;
+}
+.news-title{
+    font-size: 38.4px;
+    font-weight: bold;
+}
+.news-content{
+    color: #0E0E0E70;
+    margin: 20px 0px;
+}
+
+.rdbtn-container{
+    position: bottom left;
+    margin-bottom: 0px;
 }
